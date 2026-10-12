@@ -24,6 +24,16 @@ p {
     color: var(--dark-text);
 }
 
+.project-cat {
+    display: block;
+    width: min(100%, 520px);
+    max-height: 360px;
+    object-fit: cover;
+    margin: 1.5rem 0 2rem;
+    border: 1px solid var(--dark-border);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
 ul {
     list-style-type: none;
 }
